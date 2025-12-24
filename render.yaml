@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: quickstage-dev-hosting-backend
+    env: node
+    buildCommand: npm install
+    startCommand: npm start
+    autoDeploy: true
